@@ -5,11 +5,14 @@ body {
   min-height: 100vh;
 }
 
-h1, h2, h3 {
+ h2, h3 {
+   font-family: 'Chelsea Market', cursive;
+   font-weight: 400;
+}
+h1,h5{
   font-family: 'Chelsea Market', cursive;
   font-weight: 400;
 }
-
 .grid-container {
   min-height: 100vh;
 }
@@ -53,7 +56,7 @@ h1, h2, h3 {
 }
 
 .contingut {
-  min-height: 65vh;
+  min-height: 75vh;
 }
 
 .nom {
@@ -90,7 +93,7 @@ h1, h2, h3 {
 
 .separacion {
   text-align: inherit;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -123,9 +126,10 @@ h1, h2, h3 {
 .costat {
   width: 700px;
   height: 300px;
-  margin-left: 60px;
-  margin-top: 25px;
+  margin-top: 15px;
+
 }
+
 
 .moviento {
   margin-left: 150px;
@@ -139,7 +143,7 @@ h1, h2, h3 {
 
 .pos {
   margin-left: 10px;
-  data-responsive-toggle  
+  data-responsive-toggle
 }
 
 .transparent {
@@ -149,6 +153,7 @@ h1, h2, h3 {
 }
 
 .ancho {
+  margin-top: 55px;
   text-align: center;
 }
 
@@ -172,4 +177,13 @@ h1, h2, h3 {
   margin-left: auto;
   margin-left: 250px;
   margin-top: auto;
+}
+.text-center{
+  text-align: center;
+}
+
+.espacio{
+  margin-top: 75px;
+  margin-bottom:65px;
+
 }
